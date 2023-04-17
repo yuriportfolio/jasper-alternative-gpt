@@ -37,7 +37,7 @@ More template can be added to the `TEMPLATES` list.
 In order to work locally or deploy this project to Vercel, you need to set your OPENAI_API_KEY to use ChatGPT3 API.
 Once added , this should work out of the box.
 
-## Running Locally
+## Running Local
 
 This project is built with `Next.js` and `TailwindCSS`, so you can deploy it directly to Vercel.
 
@@ -93,7 +93,7 @@ systems that not only look amazing and feel state-of-the-art, but also have real
 You can contact me on Linkedin for any suggestions, questions or thoughts. 
 https://www.linkedin.com/in/yuval-suede/
 
-## 🤝 Contributing
+## 🤝
 
 Contributions, issues and feature requests are welcome!<br /> 
 I will always appreciate a STAR and an attribution of the main demo [website](https://jema.ai)
