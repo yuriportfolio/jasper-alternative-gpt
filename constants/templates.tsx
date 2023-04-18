@@ -579,8 +579,8 @@ export const TEMPLATES: Template[] = [
         },
         {
             "id": "date",
-            "type": "date",
-            "label": "Event Date",
+            "type": "text",
+            "label": "when",
             "placeholder": "2023-06-15",
         },
         {
