@@ -450,7 +450,7 @@ export const TEMPLATES: Template[] = [
             },
         ]
     },
- },
+
 {
 "id": "b2d9-56c8-9a73-12f7",
 "title": "Product Description",
