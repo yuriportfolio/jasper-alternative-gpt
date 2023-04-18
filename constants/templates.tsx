@@ -598,34 +598,6 @@ export const TEMPLATES: Template[] = [
     ]
 },
 {
-    "id": "c4d5-6e7f-8a9b-0c1d",
-    "title": "Resume Critique",
-    "description": "Critique a resume and provide feedback on how to improve it.",
-    "command": "Can you review my resume and provide feedback on how to improve it?",
-    "icon": "<i class='far fa-file-alt text-primary'></i>",
-    "categories": ["career", "human_resources"],
-    "inputs": [
-        {
-            "id": "resume",
-            "type": "file",
-            "label": "Resume",
-            "placeholder": "Upload your resume",
-        },
-        {
-            "id": "targetJob",
-            "type": "text",
-            "label": "Target Job",
-            "placeholder": "Software Engineer",
-        },
-        {
-            "id": "targetCompany",
-            "type": "text",
-            "label": "Target Company",
-            "placeholder": "Google",
-        }
-    ]
-},
-{
 "id": "f2e9-4218-04bc-6a0d",
 "title": "Email Newsletter Copywriting",
 "description": "Write compelling copy for your email newsletter that engages subscribers and drives conversions.",
