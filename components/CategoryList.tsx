@@ -6,8 +6,27 @@ interface Category {
 }
 
 const categoriesData = [
-    [    { "id": "blog", "label": "Blog" },    { "id": "linkedin", "label": "LinkedIn" },    { "id": "email", "label": "Email" },    { "id": "marketing", "label": "Marketing" },    { "id": "ecommerce", "label": "Ecommerce" },    { "id": "website", "label": "Website" },    { "id": "ads", "label": "Ads" },    { "id": "google", "label": "Google" },    { "id": "seo", "label": "SEO" },    { "id": "video", "label": "Video" },    { "id": "social-media", "label": "Social Media" },    { "id": "e-commerce", "label": "E-commerce" },    { "id": "finance", "label": "Finance" },    { "id": "health-wellness", "label": "Health and Wellness" },    { "id": "education", "label": "Education" },    { "id": "travel-tourism", "label": "Travel and Tourism" },    { "id": "real-estate", "label": "Real Estate" },    { "id": "food-beverage", "label": "Food and Beverage" },    { "id": "non-profit", "label": "Non-Profit" },    { "id": "fashion-beauty", "label": "Fashion and Beauty" },    { "id": "technology", "label": "Technology" },]
-
+   { "id": "blog", "label": "Blog" },
+{ "id": "linkedin", "label": "LinkedIn" },
+{ "id": "email", "label": "Email" },
+{ "id": "marketing", "label": "Marketing" },
+{ "id": "ecommerce", "label": "Ecommerce" },
+{ "id": "website", "label": "Website" },
+{ "id": "ads", "label": "Ads" },
+{ "id": "google", "label": "Google" },
+{ "id": "seo", "label": "SEO" },
+{ "id": "video", "label": "Video" },
+{ "id": "social-media", "label": "Social Media" },
+{ "id": "e-commerce", "label": "E-commerce" },
+{ "id": "finance", "label": "Finance" },
+{ "id": "health-and-wellness", "label": "Health and Wellness" },
+{ "id": "education", "label": "Education" },
+{ "id": "travel-and-tourism", "label": "Travel and Tourism" },
+{ "id": "real-estate", "label": "Real Estate" },
+{ "id": "food-and-beverage", "label": "Food and Beverage" },
+{ "id": "non-profit", "label": "Non-Profit" },
+{ "id": "fashion-and-beauty", "label": "Fashion and Beauty" },
+{ "id": "technology", "label": "Technology" }
 ];
 
 // @ts-ignore
