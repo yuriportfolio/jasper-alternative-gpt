@@ -449,5 +449,263 @@ export const TEMPLATES: Template[] = [
                 "placeholder": "Marketers, companies, business owners",
             },
         ]
-    }
+    },
+{
+"id": "b2d9-56c8-9a73-12f7",
+"title": "Product Description",
+"description": "Craft a compelling product description that highlights the key features and benefits.",
+"command": "Write a product description that highlights the key features and benefits of the following product: ",
+"icon": "<i class='fas fa-info-circle text-primary'></i>",
+"categories": ["ecommerce", "marketing"],
+"inputs": [
+{
+"id": "productName",
+"type": "text",
+"label": "Product Name",
+"placeholder": "Smartphone case",
+},
+{
+"id": "productDescription",
+"type": "textarea",
+"label": "Product Description",
+"placeholder": "Protective case made with durable materials that enhances the look and feel of your smartphone.",
+},
+{
+"id": "keyFeatures",
+"type": "textarea",
+"label": "Key Features",
+"placeholder": "Shock-absorbent, slim design, anti-scratch coating.",
+},
+{
+"id": "benefits",
+"type": "textarea",
+"label": "Benefits",
+"placeholder": "Protects your phone from accidental drops and scratches, while adding style to your device.",
+}
+]
+},
+{
+"id": "c5d6-78e9-0ab1-23c4",
+"title": "Brand Name",
+"description": "Brainstorm a unique and memorable name for a brand or product.",
+"command": "Brainstorm a unique and memorable name for the following brand/product: ",
+"icon": "<i class='fas fa-pen-fancy text-primary'></i>",
+"categories": ["branding", "marketing"],
+"inputs": [
+{
+"id": "brandDescription",
+"type": "textarea",
+"label": "Brand/Product Description",
+"placeholder": "A new line of organic skincare products made with all-natural ingredients.",
+},
+{
+"id": "targetAudience",
+"type": "text",
+"label": "Target Audience",
+"placeholder": "Eco-conscious consumers, health enthusiasts, beauty bloggers.",
+}
+]
+},
+{
+"id": "d4f5-23a1-67b8-90c6",
+"title": "Marketing Campaign Ideas",
+"description": "Develop creative and effective ideas for a marketing campaign.",
+"command": "Develop creative and effective ideas for a marketing campaign for the following product/service: ",
+"icon": "<i class='fas fa-bullhorn text-primary'></i>",
+"categories": ["marketing", "advertising"],
+"inputs": [
+{
+"id": "productName",
+"type": "text",
+"label": "Product/Service Name",
+"placeholder": "Healthy meal delivery service",
+},
+{
+"id": "targetAudience",
+"type": "text",
+"label": "Target Audience",
+"placeholder": "Busy professionals, health-conscious individuals, fitness enthusiasts.",
+},
+{
+"id": "campaignGoals",
+"type": "textarea",
+"label": "Campaign Goals",
+"placeholder": "Increase brand awareness, drive website traffic, boost sales.",
+},
+{
+"id": "channels",
+"type": "textarea",
+"label": "Marketing Channels",
+"placeholder": "Social media ads, influencer marketing, email marketing.",
+}
+]
+},
+{
+    "id": "f3d4-8a90-1b2c-3e4f",
+    "title": "Product Name Generator",
+    "description": "Generate unique and catchy names for your products.",
+    "command": "Generate a unique and catchy name for our new product: ",
+    "icon": "<i class='fas fa-tags text-primary'></i>",
+    "categories": ["branding", "marketing"],
+    "inputs": [
+        {
+            "id": "productType",
+            "type": "text",
+            "label": "Product Type",
+            "placeholder": "Apparel",
+        },
+        {
+            "id": "keywords",
+            "type": "text",
+            "label": "Keywords",
+            "placeholder": "Comfortable, stylish, affordable",
+        }
+    ]
+},
+{
+    "id": "b2c3-4d5e-6f7a-8b9c",
+    "title": "Event Promotion",
+    "description": "Promote your upcoming event and increase attendance.",
+    "command": "Create a social media post to promote our upcoming event: ",
+    "icon": "<i class='fas fa-calendar-alt text-primary'></i>",
+    "categories": ["social_media", "events"],
+    "inputs": [
+        {
+            "id": "eventName",
+            "type": "text",
+            "label": "Event Name",
+            "placeholder": "Annual Charity Gala",
+        },
+        {
+            "id": "date",
+            "type": "date",
+            "label": "Event Date",
+            "placeholder": "2023-06-15",
+        },
+        {
+            "id": "location",
+            "type": "text",
+            "label": "Location",
+            "placeholder": "123 Main St, New York, NY",
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "label": "Event Description",
+            "placeholder": "Join us for our annual charity gala to raise money for a great cause.",
+        }
+    ]
+},
+{
+    "id": "c4d5-6e7f-8a9b-0c1d",
+    "title": "Resume Critique",
+    "description": "Critique a resume and provide feedback on how to improve it.",
+    "command": "Can you review my resume and provide feedback on how to improve it?",
+    "icon": "<i class='far fa-file-alt text-primary'></i>",
+    "categories": ["career", "human_resources"],
+    "inputs": [
+        {
+            "id": "resume",
+            "type": "file",
+            "label": "Resume",
+            "placeholder": "Upload your resume",
+        },
+        {
+            "id": "targetJob",
+            "type": "text",
+            "label": "Target Job",
+            "placeholder": "Software Engineer",
+        },
+        {
+            "id": "targetCompany",
+            "type": "text",
+            "label": "Target Company",
+            "placeholder": "Google",
+        }
+    ]
+},
+{
+"id": "f2e9-4218-04bc-6a0d",
+"title": "Email Newsletter Copywriting",
+"description": "Write compelling copy for your email newsletter that engages subscribers and drives conversions.",
+"command": "Write compelling copy for our email newsletter.",
+"icon": "<i class='fas fa-envelope-open-text text-primary'></i>",
+"categories": ["email", "marketing"],
+"inputs": [
+{
+"id": "newsletterTopic",
+"type": "text",
+"label": "Newsletter Topic",
+"placeholder": "April Newsletter",
+},
+{
+"id": "audience",
+"type": "text",
+"label": "Audience",
+"placeholder": "Subscribers",
+},
+{
+"id": "callToAction",
+"type": "text",
+"label": "Call-to-Action",
+"placeholder": "Shop now and save 10%",
+},
+{
+"id": "branding",
+"type": "textarea",
+"label": "Branding",
+"placeholder": "Brand messaging and tone",
+}
+]
+},
+{
+"id": "d4c6-98ab-30f1-5e7e",
+"title": "Logo Design",
+"description": "Create a memorable and visually appealing logo that represents your brand.",
+"command": "Design a memorable and visually appealing logo for our brand.",
+"icon": "<i class='fas fa-palette text-primary'></i>",
+"categories": ["design", "branding"],
+"inputs": [
+{
+"id": "companyName",
+"type": "text",
+"label": "Company Name",
+"placeholder": "Acme Corporation",
+},
+{
+"id": "branding",
+"type": "textarea",
+"label": "Branding",
+"placeholder": "Brand messaging and tone",
+},
+{
+"id": "style",
+"type": "text",
+"label": "Style",
+"placeholder": "Modern, minimalist",
+}
+]
+},
+{
+"id": "a9d8-563f-12bc-3e3a",
+"title": "Keyword Research",
+"description": "Conduct keyword research to identify high-value keywords and optimize your content for search engines.",
+"command": "Conduct keyword research for our content.",
+"icon": "<i class='fas fa-search-plus text-primary'></i>",
+"categories": ["seo", "content"],
+"inputs": [
+{
+"id": "contentTopic",
+"type": "text",
+"label": "Content Topic",
+"placeholder": "How to improve website SEO",
+},
+{
+"id": "targetAudience",
+"type": "text",
+"label": "Target Audience",
+"placeholder": "Small business owners",
+}
+]
+}
 ]
